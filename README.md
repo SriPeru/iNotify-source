@@ -11,5 +11,5 @@ iNotify Source Files
 2. Run "gulp server" to initialize the server in a terminal
 3. Open another Terminal window and run "gulp default" to start the Original App
 4. The above step should open the app in default browser with live reload.
-5. Then follow the instruction in the home
+5. Then follow the instruction in the content section
 6. If any issue ping me.
