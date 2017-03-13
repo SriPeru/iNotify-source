@@ -25,6 +25,7 @@ function notificationsController(Messages, filterFilter, nowTime) {
         this.MsgStore = Messages;
         this.Messages = Messages.collection;
     /******
+        If no messages then "No Messages" scenario will be shown. As there is no requirement, didn't cover
         Time can be calculated like below:
         1. Till 60 sec "Just Now"
         2. After 60Sec "Minute Ago"
