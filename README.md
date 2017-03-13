@@ -3,7 +3,7 @@ Yet Another Task Scheduler using Angular JS 1.5 and WebSocket
 
 iNotify Source Files
 
-[Check Demo](https://sriperu.github.io/iNotify/)
+[Check Demo](https://sriperu.github.io/iNotify/) [Simulated Demo, Websocket removed]
 
 #Guide to Install the Original source
 
