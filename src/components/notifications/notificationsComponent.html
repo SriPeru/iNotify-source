@@ -29,9 +29,9 @@
     <li ng-repeat="message in $ctrl.Messages | orderBy:'-timeStamp' track by $index">
       
         <h4>
-            <span ng-if="$index === 0">{{ $ctrl.pageLoadTime | timeAgo | capitalize }}</span>
-            <span ng-if="$index !== 0">{{ message.timeStamp | timeAgo | capitalize }}</span>
-            
+            <!--span ng-if="$index === 0">{{ $ctrl.pageLoadTime | timeAgo | capitalize }}</span>
+            <span ng-if="$index !== 0">{{ message.timeStamp | timeAgo | capitalize }}</span-->
+            <span>{{ message.timeStamp | timeAgo | capitalize }}</span>
         </h4>
        <p>{{ message.content }} 
            <a href="{{message.action_href}}"  ng-bind-html="message.action" role="button"> <i class="pull-right icon-chevron-right" ></i></a></p>
