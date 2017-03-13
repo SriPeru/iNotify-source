@@ -1,5 +1,5 @@
 # Welcome to iNotify
-Yet Another Task Scheduler
+Yet Another Task Scheduler using Angular JS 1.5 and WebSocket
 
 iNotify Source Files
 
