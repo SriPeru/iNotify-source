@@ -7,6 +7,8 @@ iNotify Source Files
 
 #Guide to Install the Original source
 
+Make sure NPM, Gulp CLI installed globally, or install locally in the project.
+
 1. Extract the files and run "npm install" in Terminal and make sure all the packages are installed(Double check Babel)
 2. Run "gulp server" to initialize the server in a terminal
 3. Open another Terminal window and run "gulp default" to start the Original App
