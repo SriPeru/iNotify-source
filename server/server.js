@@ -31,7 +31,7 @@ wss.on('connection', function connection(ws) {
     ws.send(json);
 });
 
-// Every three seconds broadcast "{ message: 'Hello hello!' }" to all connected clients
+// Every three seconds broadcast Sends beloe message to all connected clients
 let broadcast = function(i) {
 let int = setInterval(function(){
   // wss.clients is an array of all connected clients
